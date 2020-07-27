@@ -2,15 +2,15 @@
 
 한국기술교육대학교 멋쟁이사자처럼 8기 운영진&멘토 김승규
 
-## Cheat Sheet
-
 ---
+
+## Cheat Sheet
 
 [Github Command](./doc/Github%20Command.md)
 
-## Infrastructure
-
 ---
+
+## Infrastructure
 
 [AWS](./doc/AWS.md)
 
