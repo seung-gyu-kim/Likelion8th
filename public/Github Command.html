@@ -1,0 +1,75 @@
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Github Command</title>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+	<article class="page sans">
+		<header>
+			<h1 class="page-title">Github Command</h1>
+		</header>
+		<div class="page-body">
+			<h3 class=""><mark class="highlight-red">Push</mark> to empty
+				repository</h3>
+			<pre class="code"><code>git init
+git remote add origin 레포지토리 주소
+git add .
+git commit -m &quot;(원하는 내용)&quot;
+git push origin master</code></pre>
+			<h3 class=""><mark class="highlight-red">Push</mark> to exist
+				repository</h3>
+			<pre class="code"><code>git clone 레포지토리 주소
+git add .
+git commit -m &quot;(원하는 내용)&quot;
+git push origin master
+# [fetch, pull 필요할 경우 Pull from exist repository 참고]</code></pre>
+			<h3 class=""><mark class="highlight-red">Pull</mark> from exist
+				repository</h3>
+			<pre class="code"><code>git fetch
+git pull
+# [충돌 발생 시 충돌 해결]</code></pre>
+			<h3 class="">연결된 이후 push</h3>
+			<pre class="code"><code># fetch, pull, merge 등 수행
+git commit -m &quot;(원하는 내용)&quot;
+git push origin master</code></pre>
+			<h3 class="">자주 쓰는 명령어</h3>
+			<ul class="bulleted-list">
+				<li>git init</li>
+			</ul>
+			<ul class="bulleted-list">
+				<li>git add .</li>
+			</ul>
+			<ul class="bulleted-list">
+				<li>git commit -m &quot;content&quot;</li>
+			</ul>
+			<ul class="bulleted-list">
+				<li>git remote add orgint http://주소.git</li>
+			</ul>
+			<ul class="bulleted-list">
+				<li>git branch 브랜치명</li>
+			</ul>
+			<ul class="bulleted-list">
+				<li>git checkout 브랜치명</li>
+			</ul>
+			<ul class="bulleted-list">
+				<li>git push origin 브랜치</li>
+			</ul>
+			<ul class="bulleted-list">
+				<li>git pull origin 브랜치</li>
+			</ul>
+			<ul class="bulleted-list">
+				<li>git clone http://주소.git</li>
+			</ul>
+			<ul class="bulleted-list">
+				<li>git status</li>
+			</ul>
+			<p class="">
+			</p>
+		</div>
+	</article>
+</body>
+
+</html>
