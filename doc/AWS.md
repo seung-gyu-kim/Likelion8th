@@ -9,4 +9,4 @@
 
 그해 인증된 멋사 계정 필요
 
-[2020 AWS 가입 가이드 Ver02.pdf](../static/file/2020_AWS___Ver02.pdf)
+[2020 AWS 가입 가이드 Ver02.pdf](./file/2020_AWS___Ver02.pdf)
